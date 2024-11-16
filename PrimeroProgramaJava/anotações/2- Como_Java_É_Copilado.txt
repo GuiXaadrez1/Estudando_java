@@ -1,6 +1,0 @@
-                            COMO JAVA É COPILADO?
-     
-     1 -> Nosso código fonte, arquivo.java(main) é compilado pelo compilador que retorna 
-     um arquivo.class que é lido pelo JAVA VIRTUAL MACHINE
-
-     myprogram.java -> copilador -> myprogram.class -> JAVA VM -> my programa em execução
