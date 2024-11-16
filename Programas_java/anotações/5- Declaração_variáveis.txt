@@ -1,5 +1,55 @@
-                COMO DECLARAR VARIÁVEIS EM JAVA?
-     Basicamente na seguinte forma:
-        tipo_de_dado_da_variável + nome_ variável = valor_variável
+              COMO DECLARAR VARIÁVEIS EM JAVA?
+  
+    Basicamente na seguinte forma:
+        
+        tipo_de_dado_da_variável nome_variável = valor_variável;
 
-                TIPOS DE DADOS DAS VARIÁVEIS
+              TIPOS DE DADOS DAS VARIÁVEIS
+
+    1. TIPOS PRIMITIVOS -> Guardam valores diretamente na memória (RAM), ocupando menos espaço.
+
+        Exemplos de tipos primitivos:
+            - byte idade = 25;         // Números inteiros, de -128 a 127
+            - short temperatura = 32;  // Números inteiros, de -32.768 a 32.767
+            - int numero = 1000;       // Números inteiros, de -2^31 a 2^31-1
+            - long distancia = 100000L; // Números inteiros, de -2^63 a 2^63-1
+            - float salario = 2500.50f; // Números decimais, com precisão simples (32 bits)
+            - double preco = 19.99;    // Números decimais, com precisão dupla (64 bits)
+            - char letra = 'A';        // Um único caractere (armazena um código Unicode)
+            - boolean ativo = true;    // Valor lógico, verdadeiro ou falso
+
+    2. TIPOS NÃO PRIMITIVOS (REFERÊNCIA) -> Armazenam referências a objetos, mais complexos.
+    Basicamente, guardam endereço de memória onde o objeto está armazenado
+
+        Exemplos de tipos não primitivos:
+            - String nome = "João";       // Sequência de caracteres (não é um tipo primitivo)
+            - Date data = new Date();     // Data (classe da biblioteca Java)
+            - Instant momento = Instant.now(); // Data e hora (classe da biblioteca java.time)
+            - Array lista = new int[10];  // Arrays (vetores, podem armazenar múltiplos valores do mesmo tipo)
+            - Classe Pessoa pessoa = new Pessoa(); // Instância de um objeto de uma classe personalizada
+
+    3. TIPOS DE DADOS ESPECIAIS:
+    
+        - Enum: Tipo especial que define um conjunto de valores constantes.
+            Exemplo:
+            ```java
+            enum DiaDaSemana {
+                SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO, DOMINGO;
+            }
+            ```
+        - Null: Representa a ausência de valor ou referência para um objeto.
+            Exemplo:
+            ```java
+            String nome = null; // 'nome' não referencia nenhum objeto
+            ```
+    
+    4. CONCEITOS ADICIONAIS:
+
+        - Tipos de dados "wrapper": Algumas classes são usadas para encapsular tipos primitivos em objetos.
+            Exemplos:
+            - Integer (para `int`), Double (para `double`), Boolean (para `boolean`), etc.
+            Essas classes fazem parte do pacote `java.lang` e são úteis quando se precisa de um objeto em vez de um valor primitivo.
+
+    5. CONSIDERAÇÕES FINAIS:
+        - **Primitivos** ocupam menos memória e são mais rápidos.
+        - **Não primitivos** são mais flexíveis e podem armazenar dados complexos, mas possuem overhead devido ao gerenciamento de objetos.
