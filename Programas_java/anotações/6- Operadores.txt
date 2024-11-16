@@ -1,0 +1,132 @@
+              OPERADORES EM JAVA
+
+1. **OPERADORES ARITMÉTICOS** -> Usados para realizar cálculos matemáticos com valores numéricos.
+
+    Exemplos:
+        - **+** : Adição
+            Exemplo: `int soma = 5 + 3;` // soma = 8
+
+        - **-** : Subtração
+            Exemplo: `int subtracao = 10 - 2;` // subtracao = 8
+
+        - **\*** : Multiplicação
+            Exemplo: `int multiplicacao = 4 * 2;` // multiplicacao = 8
+
+        - **/** : Divisão
+            Exemplo: `int divisao = 10 / 2;` // divisao = 5
+
+        - **%** : Módulo (resto da divisão)
+            Exemplo: `int resto = 10 % 3;` // resto = 1 (resto da divisão de 10 por 3)
+
+    **Observação:**
+    - A divisão de dois inteiros (`int / int`) retorna um inteiro (desprezando a parte decimal).
+    - Para obter resultados com decimais, pelo menos um dos operandos deve ser `double` ou `float`.
+
+---
+
+2. **OPERADORES RELACIONAIS** -> Usados para comparar dois valores.
+
+    Exemplos:
+        - **==** : Igualdade
+            Exemplo: `if (a == b) { // Se a é igual a b }`
+
+        - **!=** : Diferente
+            Exemplo: `if (a != b) { // Se a não é igual a b }`
+
+        - **>** : Maior que
+            Exemplo: `if (a > b) { // Se a é maior que b }`
+
+        - **<** : Menor que
+            Exemplo: `if (a < b) { // Se a é menor que b }`
+
+        - **>=** : Maior ou igual
+            Exemplo: `if (a >= b) { // Se a é maior ou igual a b }`
+
+        - **<=** : Menor ou igual
+            Exemplo: `if (a <= b) { // Se a é menor ou igual a b }`
+
+    **Observação:**
+    - Operadores relacionais retornam um valor booleano (`true` ou `false`).
+
+---
+
+3. **OPERADORES DE ATRIBUIÇÃO** -> Usados para atribuir valores a variáveis.
+
+    Exemplos:
+        - **=** : Atribuição simples
+            Exemplo: `int x = 5;` // Atribui 5 à variável x
+
+        - **+=** : Atribuição com adição
+            Exemplo: `x += 3;` // x = x + 3
+
+        - **-=** : Atribuição com subtração
+            Exemplo: `x -= 2;` // x = x - 2
+
+        - **\*=** : Atribuição com multiplicação
+            Exemplo: `x *= 4;` // x = x * 4
+
+        - **/=** : Atribuição com divisão
+            Exemplo: `x /= 2;` // x = x / 2
+
+        - **% =** : Atribuição com módulo (resto da divisão)
+            Exemplo: `x %= 3;` // x = x % 3
+
+    **Observação:**
+    - Os operadores de atribuição alteram o valor da variável com base em uma operação com seu valor atual.
+
+---
+
+4. **OPERADORES DE INCREMENTAÇÃO E DECREMENTAÇÃO** -> Usados para aumentar ou diminuir o valor de uma variável.
+
+    Exemplos:
+        - **++** : Incremento (aumenta em 1)
+            - **Pré-incremento:** `++a;` // a é incrementado antes de ser usado
+            - **Pós-incremento:** `a++;` // a é usado e depois incrementado
+
+        - **--** : Decremento (diminui em 1)
+            - **Pré-decremento:** `--a;` // a é decrementado antes de ser usado
+            - **Pós-decremento:** `a--;` // a é usado e depois decrementado
+
+    **Observação:**
+    - A diferença entre pré e pós incrementação/decrementação é a ordem de execução. No pré, a operação ocorre primeiro; no pós, o valor da variável é utilizado primeiro e a operação ocorre depois.
+
+---
+
+5. **CONSTANTES** -> São valores que não podem ser alterados após sua definição. No Java, você usa a palavra-chave `final` para declarar uma constante.
+
+    Exemplos:
+        - **Constantes numéricas:**
+            ```java
+            final int MAX_IDADE = 100;
+            final double PI = 3.14159;
+            ```
+
+        - **Constantes de texto:**
+            ```java
+            final String NOME_PROGRAMA = "Calculadora";
+            ```
+
+    **Observação:**
+    - As constantes em Java são geralmente escritas em letras maiúsculas para seguir a convenção e facilitar a identificação.
+
+---
+
+6. **CONSTANTES LITERÁIS**
+
+    - **`final`**: Um modificador de classe, método ou variável que indica que um valor não pode ser alterado após a inicialização.
+
+    Exemplos:
+        ```java
+        final int limite = 50; // Variável não pode ser modificada após ser atribuída
+        final String saudacao = "Bem-vindo!"; // Constante de texto
+        ```
+
+---
+
+### **Resumo de Operadores**
+
+```text
+Operadores Aritméticos:     +   -   *   /   %
+Operadores Relacionais:     ==  !=  >  <  >=  <=
+Operadores de Atribuição:   =   +=  -=  *=  /=  %=  
+Operadores de Incrementação: ++  --  
