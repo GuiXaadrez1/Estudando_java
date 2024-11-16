@@ -11,9 +11,10 @@
                 String.out.println("Hello Word!")
             }
          }
-
+_____________________________________________________________________________________________________
+    
     Main.java 
-        public class Main{
+    |_    public class Main{
              public static void main(String[]args){
                 String.out.println("Hello Word!")
             }

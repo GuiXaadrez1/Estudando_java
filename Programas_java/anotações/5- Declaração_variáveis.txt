@@ -1,0 +1,5 @@
+                COMO DECLARAR VARIÁVEIS EM JAVA?
+     Basicamente na seguinte forma:
+        tipo_de_dado_da_variável + nome_ variável = valor_variável
+
+                TIPOS DE DADOS DAS VARIÁVEIS
