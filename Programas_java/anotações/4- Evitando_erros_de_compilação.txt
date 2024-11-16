@@ -1,0 +1,30 @@
+        FORMAS DE EVITAR ERROS DE COMPILAÇÃO/INTERPRETAÇÃO!
+    
+    Lembre-se CASE SENSITIVE, o nome do arquivo.java deve ser igual ao nome da Classe.
+    Salvo a exceção se a classe não estiver encapsulamento -> public ou private.
+
+                            EXEMPLO!
+    hello.java
+    |
+    |-  class main{
+            public static void main(String[]args){
+                String.out.println("Hello Word!")
+            }
+         }
+
+    Main.java 
+        public class Main{
+             public static void main(String[]args){
+                String.out.println("Hello Word!")
+            }
+        }
+    
+
+                        RESUMO DA OPERA NISSO!
+
+        .java -> arquivo texto contendo o códico fonte sem formatação especial(texto ASCII)
+        .class -> arquivo bytecode que contém as intruções compiladas , que seram executadas
+        por uma máquina virtual java
+
+        Nota ->  Se public vier antes da palavra class , o nome do arquivo deve ter o mesmo nome 
+        da classe(CASE SENSITIVE)

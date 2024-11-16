@@ -1,0 +1,17 @@
+                    O QUE É O MAIN?
+    
+    O método main é onde esta o nosso código principal para realizar o programa JAVA.
+    É pelo método main que a virtual machine irá ler e interpretar o código java
+
+                        SINTAXE:
+    
+    Dentro da classe vamos colocar:
+        public static void main(String[]args)
+    
+                        VEJA!
+    
+    public class Main{
+        public static void main(String[]args){
+            intruções condicionais, repetição, métodos, objetos
+        }
+    }
